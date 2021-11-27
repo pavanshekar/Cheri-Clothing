@@ -18,7 +18,7 @@ app.use(requestLogger);
 app.use('/user', userRouter)
 
 app.get('/', (req, res)=>{
-    res.send("Welcome to Cheri")
+    res.send("Welcome to Cheri ")
 })
 
 app.use(function (req, res) {
