@@ -1,0 +1,53 @@
+Error: No products found in the database
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\service\productService.js:13:25
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: ENOENT: no such file or directory, open 'C:\Users\narasimhans\Desktop\Cheri-Clothing\uploads\2021-11-28T16:25:39.731Zlv1.jpg'
+Error: ENOENT: no such file or directory, open 'C:\Users\narasimhans\Desktop\Cheri-Clothing\uploads\2021-11-28T16:27:21.622Zlv1.jpg'
+TypeError: Cannot read properties of undefined (reading 'path')
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\routes\adminRouter.js:33:33
+    at Layer.handle [as handle_request] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\route.js:137:13)
+    at Immediate.<anonymous> (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\multer\lib\make-middleware.js:53:37)
+    at processImmediate (node:internal/timers:466:21)
+Error: No products found in the database
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\service\productService.js:10:25
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'path')
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\routes\adminRouter.js:33:33
+    at Layer.handle [as handle_request] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\route.js:137:13)
+    at Immediate.<anonymous> (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\multer\lib\make-middleware.js:53:37)
+    at processImmediate (node:internal/timers:466:21)
+ReferenceError: productId is not defined
+    at new Product (C:\Users\narasimhans\Desktop\Cheri-Clothing\model\Product.js:3:26)
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\routes\adminRouter.js:22:21
+    at Layer.handle [as handle_request] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\route.js:137:13)
+    at Immediate.<anonymous> (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\multer\lib\make-middleware.js:53:37)
+    at processImmediate (node:internal/timers:466:21)
+Error: No products found in the database
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\service\productService.js:10:25
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: productId is not defined
+    at new Product (C:\Users\narasimhans\Desktop\Cheri-Clothing\model\Product.js:3:26)
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\routes\adminRouter.js:22:21
+    at Layer.handle [as handle_request] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\route.js:137:13)
+    at Array.<anonymous> (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\multer\lib\make-middleware.js:53:37)
+    at listener (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\on-finished\index.js:169:15)
+    at onFinish (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\on-finished\index.js:100:5)
+    at callback (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\ee-first\index.js:55:10)
+    at IncomingMessage.onevent (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\ee-first\index.js:93:5)
+    at IncomingMessage.emit (node:events:402:35)
+TypeError: adminService.addDetails is not a function
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\routes\adminRouter.js:35:18
+    at Layer.handle [as handle_request] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\route.js:137:13)
+    at Immediate.<anonymous> (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\multer\lib\make-middleware.js:53:37)
+    at processImmediate (node:internal/timers:466:21)
+TypeError: adminModel.create is not a function
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\model\adminModel.js:8:27
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No products found in the database
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\service\productService.js:10:25
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
