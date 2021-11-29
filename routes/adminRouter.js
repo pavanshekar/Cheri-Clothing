@@ -19,7 +19,7 @@ const upload = multer({storage: storage});
 //Add Product
 router.post('/addProduct', upload.array('productImages'), (req, res, next)=>{
     console.log("File",req.files);
-    imagePaths = req.files.map(data=>data.path)
+    imagePaths = req.files.map(data=>data.filename)
     const product = new Product({
         // _id: new mongoose.Types.ObjectId(),
         productId: req.body.productId,
