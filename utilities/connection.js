@@ -30,6 +30,7 @@ const productSchema = Schema({
     productName: { type: String },
     productDesc: { type: String },
     productCare: { type: String },
+    productPrice: { type: Number },
     xs: { type: Number, default: 0 },
     s: { type: Number, default: 0 },
     m: { type: Number, default: 0 },

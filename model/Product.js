@@ -4,6 +4,7 @@ class Product {
         this.productName = obj.productName;
         this.productDesc = obj.productDesc;
         this.productCare = obj.productCare;
+        this.productPrice = obj.productPrice;
         this.productImages = obj.productImages;
         this.xs = obj.xs;
         this.s = obj.s;

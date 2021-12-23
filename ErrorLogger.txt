@@ -51,3 +51,10 @@ TypeError: adminModel.create is not a function
 Error: No products found in the database
     at C:\Users\narasimhans\Desktop\Cheri-Clothing\service\productService.js:10:25
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: No products found in the database
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\service\productService.js:10:25
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Could not connect to database
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\utilities\connection.js:63:19
+Error: Could not connect to database
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\utilities\connection.js:63:19
