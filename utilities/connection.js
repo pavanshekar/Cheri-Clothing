@@ -17,7 +17,7 @@ let connection = {};
 const userSchema = Schema({
     userId: { type: String },
     name: { type: String },
-    emailId: { type: String },
+    emailId: { type: String, unique: true },
     password: { type: String },
     contactNo: { type: Number },
     city: { type: String },
@@ -26,7 +26,7 @@ const userSchema = Schema({
 }, { collection: "User" });
 
 const productSchema = Schema({
-    productId: { type: String },
+    productId: { type: String, unique: true },
     productName: { type: String },
     productDesc: { type: String },
     productCare: { type: String },

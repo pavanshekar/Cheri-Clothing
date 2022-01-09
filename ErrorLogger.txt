@@ -58,3 +58,65 @@ Error: Could not connect to database
     at C:\Users\narasimhans\Desktop\Cheri-Clothing\utilities\connection.js:63:19
 Error: Could not connect to database
     at C:\Users\narasimhans\Desktop\Cheri-Clothing\utilities\connection.js:63:19
+CredentialsError: Missing credentials in config, if using AWS_CONFIG_FILE, set AWS_SDK_LOAD_CONFIG=1
+    at Timeout.connectTimeout [as _onTimeout] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\aws-sdk\lib\http\node.js:69:15)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+CredentialsError: Missing credentials in config, if using AWS_CONFIG_FILE, set AWS_SDK_LOAD_CONFIG=1
+    at Timeout.connectTimeout [as _onTimeout] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\aws-sdk\lib\http\node.js:69:15)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+AccessControlListNotSupported: The bucket does not allow ACLs
+    at Request.extractError (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\aws-sdk\lib\services\s3.js:710:35)
+    at Request.callListeners (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\aws-sdk\lib\request.js:686:14)
+    at Request.transition (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\aws-sdk\lib\request.js:688:12)
+    at Request.callListeners (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\aws-sdk\lib\sequential_executor.js:116:18)
+AccessDenied: Access Denied
+    at Request.extractError (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\aws-sdk\lib\services\s3.js:710:35)
+    at Request.callListeners (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\aws-sdk\lib\request.js:686:14)
+    at Request.transition (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\aws-sdk\lib\request.js:688:12)
+    at Request.callListeners (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\aws-sdk\lib\sequential_executor.js:116:18)
+TypeError: Cannot read properties of null (reading 'length')
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\service\productService.js:22:20
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of undefined (reading 'location')
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\routes\adminRouter.js:51:27
+    at Layer.handle [as handle_request] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\route.js:137:13)
+    at Array.<anonymous> (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\multer\lib\make-middleware.js:53:37)
+    at listener (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\on-finished\index.js:169:15)
+    at onFinish (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\on-finished\index.js:100:5)
+    at callback (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\ee-first\index.js:55:10)
+    at IncomingMessage.onevent (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\ee-first\index.js:93:5)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+TypeError: Cannot read properties of undefined (reading 'location')
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\routes\adminRouter.js:51:27
+    at Layer.handle [as handle_request] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\route.js:137:13)
+    at Array.<anonymous> (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\multer\lib\make-middleware.js:53:37)
+    at listener (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\on-finished\index.js:169:15)
+    at onFinish (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\on-finished\index.js:100:5)
+    at callback (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\ee-first\index.js:55:10)
+    at IncomingMessage.onevent (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\ee-first\index.js:93:5)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+TypeError: Cannot read properties of null (reading 'length')
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\service\productService.js:22:20
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+TypeError: Cannot read properties of null (reading 'length')
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\service\productService.js:22:20
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
