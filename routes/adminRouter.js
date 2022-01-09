@@ -58,6 +58,7 @@ router.post('/addProduct', upload.array('productImages'), (req, res, next)=>{
         m: req.body.m,
         l: req.body.l,
         xl: req.body.xl,
+        productPrice: req.body.productPrice,
         productImages: imagePaths
     });
     adminService.addProduct(product).then(result => {

@@ -109,3 +109,4 @@ Wed Jan 05 2022 12:15:01 GMT+0530 (India Standard Time) GET /shop/products
 Wed Jan 05 2022 12:15:48 GMT+0530 (India Standard Time) GET /shop/product/CHT006BETEST
 Sun Jan 09 2022 14:00:24 GMT+0530 (India Standard Time) GET /shop/products
 Sun Jan 09 2022 14:09:23 GMT+0530 (India Standard Time) GET /shop/products
+Sun Jan 09 2022 14:23:23 GMT+0530 (India Standard Time) POST /admin/addProduct
