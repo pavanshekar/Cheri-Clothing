@@ -6,11 +6,10 @@ class Product {
         this.productCare = obj.productCare;
         this.productPrice = obj.productPrice;
         this.productImages = obj.productImages;
-        this.xs = obj.xs;
-        this.s = obj.s;
-        this.m = obj.m;
-        this.l = obj.l;
-        this.xl = obj.xl;
+        this.size = [{
+            sizeInfo: obj.sizeInfo,
+            sizeQty: obj.sizeQty
+        }]
     }
 }
 module.exports = Product;

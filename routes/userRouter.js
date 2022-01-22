@@ -15,12 +15,10 @@ const bcrypt = require('bcrypt')
 router.post('/login', function(req, res, next) {
     let credentials = req.body.credentials;
     let password = req.body.password;
-
     const user = { credentials: credentials, password: password}
     const accessToken = jwt.sign(user, process.env.ACCESS_TOKEN_SECRET)
 
     userService.checkUser(credentials, password).then(result => {
-        // res.json(result);
         res.json({result, accessToken: accessToken, status: 200})
     }).catch(err => next(err));
 })

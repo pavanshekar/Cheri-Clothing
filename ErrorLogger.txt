@@ -120,3 +120,219 @@ TypeError: Cannot read properties of null (reading 'length')
 TypeError: Cannot read properties of null (reading 'length')
     at C:\Users\narasimhans\Desktop\Cheri-Clothing\service\productService.js:22:20
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+MongoServerError: E11000 duplicate key error collection: Cheri.Product index: productId_1 dup key: { productId: "CHDR001P" }
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at MessageStream.emit (node:domain:475:12)
+    at processIncomingData (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+MongoServerError: E11000 duplicate key error collection: Cheri.Product index: productId_1 dup key: { productId: "CHDR001TEST006" }
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at MessageStream.emit (node:domain:475:12)
+    at processIncomingData (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+MongoServerError: E11000 duplicate key error collection: Cheri.Product index: productId_1 dup key: { productId: "CHDR001TEST009" }
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at MessageStream.emit (node:domain:475:12)
+    at processIncomingData (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+MongoServerError: E11000 duplicate key error collection: Cheri.Product index: productId_1 dup key: { productId: "CHDR001TEST009" }
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at MessageStream.emit (node:domain:475:12)
+    at processIncomingData (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+MongoServerError: E11000 duplicate key error collection: Cheri.Product index: productId_1 dup key: { productId: "CHDR001TEST009" }
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at MessageStream.emit (node:domain:475:12)
+    at processIncomingData (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+MongoServerError: E11000 duplicate key error collection: Cheri.Product index: productId_1 dup key: { productId: "CHDR001TEST009" }
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at MessageStream.emit (node:domain:475:12)
+    at processIncomingData (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+MongoServerError: E11000 duplicate key error collection: Cheri.Product index: productId_1 dup key: { productId: "CHDR001TEST009" }
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at MessageStream.emit (node:domain:475:12)
+    at processIncomingData (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+MongoServerError: E11000 duplicate key error collection: Cheri.Product index: productId_1 dup key: { productId: "CHDR001TEST009" }
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\operations\insert.js:51:33
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\connection_pool.js:272:25
+    at handleOperationResult (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\sdam\server.js:363:9)
+    at MessageStream.messageHandler (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\connection.js:479:9)
+    at MessageStream.emit (node:events:390:28)
+    at MessageStream.emit (node:domain:475:12)
+    at processIncomingData (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+ValidationError: Product validation failed: size: Cast to embedded failed for value "'[{xs:10,s:10,m:10,l:10,xl:10}]'" (type string) at path "size"
+    at model.Document.invalidate (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongoose\lib\document.js:2906:32)
+    at model.$set (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongoose\lib\document.js:1447:12)
+    at model.$set (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongoose\lib\document.js:1149:16)
+    at model.Document (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongoose\lib\document.js:158:12)
+    at model.Model (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongoose\lib\model.js:4763:15)
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongoose\lib\model.js:3112:22
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongoose\lib\model.js:3148:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongoose\lib\model.js:3147:15
+ValidationError: Product validation failed: size: Cast to embedded failed for value "`'[{"xs":10,"s":10,"m":10,"l":10,"xl":10}]'`" (type string) at path "size"
+    at model.Document.invalidate (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongoose\lib\document.js:2906:32)
+    at model.$set (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongoose\lib\document.js:1447:12)
+    at model.$set (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongoose\lib\document.js:1149:16)
+    at model.Document (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongoose\lib\document.js:158:12)
+    at model.Model (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongoose\lib\model.js:4763:15)
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongoose\lib\model.js:3112:22
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongoose\lib\model.js:3148:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\mongoose\lib\model.js:3147:15
+Error: Not a valid password
+    at Object.Validator.validatePassword (C:\Users\narasimhans\Desktop\Cheri-Clothing\utilities\Validator.js:36:19)
+    at Object.UserService.checkUser (C:\Users\narasimhans\Desktop\Cheri-Clothing\service\userService.js:11:15)
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\routes\userRouter.js:22:17
+    at Layer.handle [as handle_request] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\index.js:275:10)
+Error: Not a valid password
+    at Object.Validator.validatePassword (C:\Users\narasimhans\Desktop\Cheri-Clothing\utilities\Validator.js:36:19)
+    at Object.UserService.checkUser (C:\Users\narasimhans\Desktop\Cheri-Clothing\service\userService.js:11:15)
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\routes\userRouter.js:22:17
+    at Layer.handle [as handle_request] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\index.js:275:10)
+Error: Not a valid emailId
+    at Object.Validator.validateEmailId (C:\Users\narasimhans\Desktop\Cheri-Clothing\utilities\Validator.js:17:19)
+    at Object.UserService.checkUser (C:\Users\narasimhans\Desktop\Cheri-Clothing\service\userService.js:20:19)
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\routes\userRouter.js:22:17
+    at Layer.handle [as handle_request] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\index.js:275:10)
+Error: User not available!! Please register
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\service\userService.js:25:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: User not available!! Please register
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\service\userService.js:25:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: Not a valid password
+    at Object.Validator.validatePassword (C:\Users\narasimhans\Desktop\Cheri-Clothing\utilities\Validator.js:36:19)
+    at Object.UserService.checkUser (C:\Users\narasimhans\Desktop\Cheri-Clothing\service\userService.js:11:15)
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\routes\userRouter.js:22:17
+    at Layer.handle [as handle_request] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\index.js:275:10)
+Error: Not a valid password
+    at Object.Validator.validatePassword (C:\Users\narasimhans\Desktop\Cheri-Clothing\utilities\Validator.js:36:19)
+    at Object.UserService.checkUser (C:\Users\narasimhans\Desktop\Cheri-Clothing\service\userService.js:11:15)
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\routes\userRouter.js:22:17
+    at Layer.handle [as handle_request] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\index.js:275:10)
+Error: Not a valid password
+    at Object.Validator.validatePassword (C:\Users\narasimhans\Desktop\Cheri-Clothing\utilities\Validator.js:36:19)
+    at Object.UserService.checkUser (C:\Users\narasimhans\Desktop\Cheri-Clothing\service\userService.js:11:15)
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\routes\userRouter.js:22:17
+    at Layer.handle [as handle_request] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\index.js:275:10)
+Error: User not available!! Please register
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\service\userService.js:25:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: User not available!! Please register
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\service\userService.js:25:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: User not available!! Please register
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\service\userService.js:25:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: User not available!! Please register
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\service\userService.js:25:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Error: User not available!! Please register
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\service\userService.js:25:23
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: ans is not defined
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\service\userService.js:49:13
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: ans is not defined
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\service\userService.js:49:13
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+ReferenceError: a is not defined
+    at Object.UserService.checkUser (C:\Users\narasimhans\Desktop\Cheri-Clothing\service\userService.js:51:23)
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\routes\userRouter.js:22:17
+    at Layer.handle [as handle_request] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\narasimhans\Desktop\Cheri-Clothing\node_modules\express\lib\router\index.js:174:3)
+Error: Password is Incorrect
+    at C:\Users\narasimhans\Desktop\Cheri-Clothing\service\userService.js:34:35

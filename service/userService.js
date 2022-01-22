@@ -8,41 +8,41 @@ let UserService = {}
 
 //To check whether the user registered if so, then allow him/her to login
 UserService.checkUser = (credentials, password) => {
-    validator.validatePassword(password)
+    // validator.validatePassword(password)
     let contactNo = null;
     let emailId = "";
     if (String(credentials).match(/^[1-9][0-9]{9}$/)) {
         contactNo = Number(credentials);
-        validator.validateContactNo(credentials);
+        // validator.validateContactNo(credentials);
     }
     else {
         emailId = credentials; 
-        validator.validateEmailId(credentials);
+        // validator.validateEmailId(credentials);
     }
     return userdb.findUser(contactNo, emailId).then(userData => {
-
         if (userData == null) {
             let err = new Error("User not available!! Please register");
             err.status = 404;
             throw err;
         } else {
             if (userData.emailId === emailId || userData.contactNo == contactNo) {
-                // if (userData.password === password)
-                bcrypt.compare(password, userData.password, (err, data) => {
-                    if (data) {
-                        return userData;
-                    } else {
-                        err = new Error("Password is Incorrect");
-                        err.status = 404;
-                        throw err;
-                    }
-                });
+                return new Promise((resolve, reject) => {
+                    bcrypt.compare(password, userData.password, (err, data) => {
+                        if (data) {
+                            return resolve(userData);
+                        } else {
+                            err = new Error("Password is Incorrect");
+                            err.status = 404;
+                            return reject(err);
+                        }
+                    });
+                })
             }
             else {
                 let err = new Error("Authentication failed");
                 err.status = 404;
                 throw err;
-            }
+            }          
         }
     })
 }

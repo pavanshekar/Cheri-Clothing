@@ -28,7 +28,7 @@ aws.config.update({
         cb(null, { fieldName: "TESTING_METADATA" });
       },
       key: function (req, file, cb) {
-          console.log(file);
+          // console.log(file);
         cb(null, new Date().toISOString().replace(/:/g, '-') + file.originalname);
       },
     }),
@@ -48,20 +48,26 @@ aws.config.update({
 router.post('/addProduct', upload.array('productImages'), (req, res, next)=>{
     console.log("File",req.files);
     imagePaths = req.files.map(data=>data.location)
-    const product = new Product({
-        // _id: new mongoose.Types.ObjectId(),
-        productId: req.body.productId,
-        productName: req.body.productName,
-        productDesc: req.body.productDesc,
-        productCare: req.body.productCare,
-        xs: req.body.xs,
-        s: req.body.s,
-        m: req.body.m,
-        l: req.body.l,
-        xl: req.body.xl,
-        productPrice: req.body.productPrice,
-        productImages: imagePaths
-    });
+    console.log("ex-check",req.body.size);
+    console.log("body", req.body);
+    // const product = new Product({
+    //     productId: req.body.productId,
+    //     productName: req.body.productName,
+    //     productDesc: req.body.productDesc,
+    //     productCare: req.body.productCare,
+    //     size: {
+    //       xs: req.body.xs,
+    //       s: req.body.size.s,
+    //       m: req.body.size.m,
+    //       l: req.body.size.l,
+    //       xl: req.body.size.xl,
+    //     },
+    //     productPrice: req.body.productPrice,
+    //     productImages: imagePaths
+    // });
+    const product = req.body;
+    product.productImages = imagePaths;
+    console.log("ex2",product);
     adminService.addProduct(product).then(result => {
         if (result != null)
             res.json("Product added successfully");

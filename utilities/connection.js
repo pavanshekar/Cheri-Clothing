@@ -31,16 +31,23 @@ const productSchema = Schema({
     productDesc: { type: String },
     productCare: { type: String },
     productPrice: { type: Number },
-    xs: { type: Number, default: 0 },
-    s: { type: Number, default: 0 },
-    m: { type: Number, default: 0 },
-    l: { type: Number, default: 0 },
-    xl: { type: Number, default: 0 },
+    size: [{
+        sizeInfo: { type: String },
+        sizeQty: { type: Number}
+    }],
     productImages: [{
         type: String
     }]
     
 }, { collection: "Product" });
+
+const cartSchema = Schema({
+    userId: { type: String },
+    items: {
+        productId: { type: String},
+        quantity: { type: Number}
+    }
+}, { collection: "Cart"});
 
 connection.getUserCollection = () => {
     return mongoose.connect(URI, {useNewUrlParser: true}).then((database) => {
@@ -58,6 +65,18 @@ connection.getProductCollection = () => {
     return mongoose.connect(URI, {useNewUrlParser: true}).then((database) => {
         console.log("Connected to Cheri database");
         return database.model('Product', productSchema)
+    }).catch((error) => {
+        console.log(error.message);
+        let err = new Error("Could not connect to database");
+        err.status = 500;
+        throw err;
+    })
+}
+
+connection.getCartCollection = () => {
+    return mongoose.connect(URI, {useNewUrlParser: true}).then((database) => {
+        console.log("Connected to Cheri database");
+        return database.model('Cart', cartSchema)
     }).catch((error) => {
         console.log(error.message);
         let err = new Error("Could not connect to database");
